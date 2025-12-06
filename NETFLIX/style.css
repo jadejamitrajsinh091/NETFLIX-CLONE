@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black ;
+    color: gray;
+    
+}
+.container{
+    
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    contain: content;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.nav{
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo{
+    width: 210px;
+    margin-left: 300px;
+}
+
+.lang{
+    padding: 8px;
+    margin-left: 47%;
+    background-color: rgb(17,15,15);
+    border: 1px solid white;
+    color: white;
+    width: 110px;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn{
+     margin-right: 14%;
+     height: 37px;
+     width: 80px;
+     background-color: rgb(229,9,20);
+     color: white;
+     font-weight: bolder;
+     font-size: 15px;
+     border: none;
+     border-radius: 5px;
+}
+
+.getstarted{
+    text-align: center;
+    margin-top: 13%;
+}
+
+.heading{
+    font-size: 80px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subheading{
+    color: white;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mail{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(15,15,15);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(145, 143, 143);
+}
+
+.getbtn{
+    height: 50px;
+    width: 160px;
+    color: white;
+    background-color:rgb(229,9,20) ;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.gradiant{
+    
+    height: 15px;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 46.5%;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+.movie{
+    height: 1000px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.trending{
+    margin-top: 45px;
+    margin-left: 150px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.imgs{
+    border-radius: 8px;
+    width: 220px;
+    height: 320px;
+}
+
+.z1{
+    left:115px ;
+    top:1170px ;
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 130px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.z2{
+    left:490px ;
+    top:1170px ;
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 130px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.z3{
+    left:850px ;
+    top:1170px ;
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 130px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.z4{
+    left:1210px ;
+    top:1170px ;
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 130px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.z5{
+    left:1590px ;
+    top:1170px ;
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 130px;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.more{
+    margin-top: 45px;
+    margin-left: 150px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.features {
+    padding: 40px 60px;
+}
+
+.featuresbox {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.boxes {
+    padding: 30px;
+    border-radius: 8px;
+    width: 17%;
+    height: 350px;
+    background: linear-gradient(135deg, #1a0f2b, #090b14);
+    opacity: 100%;
+    color: white;
+    margin-left: 50px;
+}
+
+.boxes h3{
+    font-size: 30px;
+}
+
+.boxes p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.icon1{
+    margin-left: 170px;
+    margin-top: 80px;
+}
+
+.icon2{
+    margin-left: 160px;
+    margin-top: 140px;
+}
+.asked{
+    margin-top: 45px;
+    margin-left: 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.faqs{
+    padding: 40px 60px;
+}
+
+.que {
+    background: #303030;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 250px;
+    margin-right: 260px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center{
+    text-align: center;
+    color: white;
+}
+
+footer {
+    padding: 40px 60px;
+    color: #bbb;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.small {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.trend{
+    margin-left: 400px;
+
+}
+
+.com{
+    margin-top: 100px;
+    margin-left: 250px;
+}
